@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Comunidad | Diario de Cultura</title>
+  <link rel="stylesheet" href="estilos.css" />
+  <link rel="icon" href="imagenes/favicon.png" type="ICO" />
+  <!-- Tipografías -->
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+<!-- HEADER personalizado para Comunidad -->
+<header class="comunidad-header">
+  <div class="logo">
+    <a href="index.html"><img src="imagenes/Logo.png" alt="Logo Diario de Cultura" /></a>
+    <button class="comunidad-active-btn" style="display:block;margin:12px auto 0 auto;padding:8px 24px;background:#8D7AFF;color:#fff;border:none;border-radius:20px;font-size:1rem;font-family:'Urbanist',sans-serif;cursor:default;box-shadow:0 2px 8px rgba(0,0,0,0.06);">Comunidad</button>
+  </div>
+  <div class="search-bar">
+    <input type="text" placeholder="Buscar en Comunidad..." />
+  </div>
+  <div class="acciones">
+    <button>Crear</button>
+    <span class="notificaciones-icon" style="display:inline-flex;align-items:center;">
+      <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:block;">
+        <path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"/>
+        <path d="M13.73 21a2 2 0 0 1-3.46 0"/>
+      </svg>
+    </span>
+    <img src="imagenes/User.png" alt="Usuario" style="width:32px;height:32px;object-fit:contain;" />
+  </div>
+</header>
+
+<!-- CUERPO principal con 3 columnas -->
+<main class="comunidad-layout">
+  <!-- Izquierda: Secciones -->
+  <aside class="secciones">
+    <strong style="display:block;margin-bottom:10px;">Secciones</strong>
+    <hr style="border:none;border-top:1.5px solid #e0e0e0;margin:0 0 16px 0;">
+    <ul>
+      <li><a href="#">Literatura</a></li>
+      <li><a href="#">Cine</a></li>
+      <li><a href="#">Música</a></li>
+      <li><a href="#">Teatro y Danza</a></li>
+      <li><a href="#">Museos y Artes Plásticas</a></li>
+      <li><a href="#">Cultura Argentina</a></li>
+    </ul>
+  </aside>
+
+  <!-- Centro: Foro -->
+  <section class="foro">
+    <article class="post">
+      <div class="meta"><strong>/Música</strong> • Hace 4 h • @JoacoMarini</div>
+      <h2>Ya están los precios de Kendrick en Argentina ¿Qué opinan?</h2>
+      <img src="imagenes/kendick.png" alt="Kendrick Lamar en Argentina" style="width:100%;max-width:500px;display:block;margin:16px 0;border-radius:12px;" />
+      <div class="acciones">
+        <span>👍 3,7 mil</span> • <span>💬 216</span> • <span>🔗 Compartir</span>
+      </div>
+    </article>
+
+    <article class="post">
+      <div class="meta"><strong>/Cine</strong> • Hace 2 h • @MariaCinefila</div>
+      <h2>Recíen salgo de ver Superman, la vieron ya?</h2>
+      <img src="imagenes/superman.png" alt="Película argentina recomendada" style="width:100%;max-width:500px;display:block;margin:16px 0;border-radius:12px;" />
+      <div class="acciones">
+        <span>👍 1,2 mil</span> • <span>💬 89</span> • <span>🔗 Compartir</span>
+      </div>
+    </article>
+    <!-- Más posts podrían ir aquí -->
+  </section>
+
+  <!-- Derecha: Últimas Noticias -->
+  <aside class="ultimas-noticias">
+    <h3>Últimas Noticias</h3>
+    <hr style="border:none;border-top:1.5px solid #e0e0e0;margin:0 0 16px 0;">
+    <ul>
+      <li>
+         Problemas y más problemas: El disco
+"maldito" de Def Leppard
+        <img src="imagenes/noti1.png" alt="Def Leppard" style="display:block;margin:8px 0 16px 0;border-radius:8px;">
+      </li>
+      <li>
+        Nieve en Buenos Aires: 5 películas y
+series argentinas que transcurren
+durante una nevada
+        <img src="imagenes/noti2.png" alt="Películas argentinas con nieve" style="display:block;margin:8px 0 16px 0;border-radius:8px;">
+      </li>
+      <li>
+        Julia Roberts revela qué películas no
+puede hacer ni mirar: "Descartado para
+mí
+        <img src="imagenes/noti3.png" alt="Julia Roberts" style="display:block;margin:8px 0 16px 0;border-radius:8px;">
+      </li>
+      <li>
+        Mac DeMarco rema hacia un nuevo
+hogar con su próximo disco: Guitar
+        <img src="imagenes/noti4.png" alt="Mac DeMarco" style="display:block;margin:8px 0 0 0;border-radius:8px;">
+      </li>
+    </ul>
+  </aside>
+</main>
+
+<!-- FOOTER -->
+<footer class="main-footer">
+  <div class="footer-grid">
+      <div class="footer-column sections">
+          <h4>SECCIONES</h4>
+          <ul>
+              <li><a href="#">Literatura</a></li>
+              <li><a href="#">Música</a></li>
+              <li><a href="#">Cine y Artes Visuales</a></li>
+              <li><a href="#">Teatro y Danza</a></li>
+              <li><a href="#">Museos y Artes Plásticas</a></li>
+              <li><a href="#">Costumbres y Tendencias</a></li>
+              <li><a href="#">Turismo Cultural</a></li>
+              <li><a href="#">Estadísticas culturales</a></li>
+          </ul>
+      </div>
+
+      <div class="footer-column contact-info">
+          <h4>HABLEMOS</h4>
+          <ul>
+              <li><a href="#">Contacto administrativo</a></li>
+              <li><a href="#">Contacto de lectores</a></li>
+              <li><a href="#">Contacto comercial</a></li>
+          </ul>
+          <div class="footer-social-icons">
+              <a href="#" class="social-icon-link"><img src="Imagenes/IG.png" alt="Instagram"></a>
+              <a href="#" class="social-icon-link"><img src="Imagenes/FB.png" alt="Facebook"></a>
+              <a href="#" class="social-icon-link"><img src="Imagenes/YT.png" alt="YouTube"></a>
+          </div>
+      </div>
+
+      <div class="footer-column editorial-info">
+          <h4>DIARIO DE CULTURA</h4>
+          <address>
+              <p>Tucumán 3808 – P.B.</p>
+              <p>Ciudad de Buenos Aires</p>
+          </address>
+          <p class="copyright">Copyright 2009-2024</p>
+      </div>
+  </div>
+</footer>
+
+</body>
+</html>
