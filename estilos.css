@@ -732,4 +732,131 @@ img {
     color: #ffffff;
 }
 
+/*Comunidad VVV*/
+.comunidad-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 150px;
+  background-color: #A5A6F3;
+}
+
+.comunidad-header .logo img {
+  height: 60px;
+  width: auto;
+}
+
+.comunidad-header .search-bar {
+  flex-grow: 1;
+  max-width: 500px;
+  margin: 0 30px;
+}
+
+.comunidad-header .search-bar input {
+  width: 100%;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  background-color: #E2E3F9;
+  font-family: 'Urbanist', sans-serif;
+  font-size: 1em;
+}
+
+.comunidad-header .acciones {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.comunidad-header .acciones button {
+  background-color: #180C41;
+  color: #7576F2;
+  padding: 8px 20px;
+  border-radius: 20px;
+  border: 2px solid #7576F2;
+  font-family: 'Raleway', sans-serif;
+  font-style: italic;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.comunidad-layout {
+  display: grid;
+  /* Usa variables CSS para los anchos de columnas */
+  grid-template-columns: var(--comunidad-secciones-width, 1fr) 2fr 1fr;
+  gap: 30px;
+  max-width: 1400px;
+  margin: 30px auto;
+  padding: 0 20px;
+  --comunidad-secciones-width: 0.6fr;
+}
+
+.comunidad-layout aside,
+.comunidad-layout section {
+  background: #fff;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.comunidad-layout .secciones ul {
+  padding: 0;
+  margin: 0;
+}
+
+.comunidad-layout .secciones li {
+  margin-bottom: 10px;
+  font-family: 'Urbanist', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #6e5bad;
+}
+
+.foro .post {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.foro .post h2 {
+  font-size: 1.3em;
+  margin-bottom: 8px;
+  font-family: 'Playfair Display', serif;
+  color: #333;
+}
+
+.foro .post .meta {
+  font-size: 0.9em;
+  color: #666;
+  font-family: 'Inter', sans-serif;
+  margin-bottom: 10px;
+}
+
+.foro .post .acciones {
+  font-size: 0.9em;
+  color: #7576F2;
+  display: flex;
+  gap: 15px;
+}
+
+.ultimas-noticias h3 {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+  font-family: 'Urbanist', sans-serif;
+  color: #333;
+}
+
+.ultimas-noticias ul {
+  padding: 0;
+  margin: 0;
+}
+
+.ultimas-noticias li {
+  margin-bottom: 15px;
+  font-size: 0.95em;
+  font-family: 'Playfair Display', serif;
+  color: #444;
+}
 
